@@ -1126,7 +1126,7 @@ def title():
     stdout.write("\n")
 ##############################################################################################
 def command():
-    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""admin"+Fore.LIGHTGREEN_EX+"@"+Fore.LIGHTGREEN_EX"+"HASOKIV1"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
+    stdout.write(Fore.BLUE+"╔═══"+Fore.BLACK+"[""root"+Fore.WHITE+"@"+Fore.GREEN+"Hasoki"+Fore.CYAN+"]"+Fore.BLUE+"\n╚══\x1b[38;2;0;255;189m> "+Fore.RED)
     command = input()
     if command == "cls" or command == "clear":
         clear()
